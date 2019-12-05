@@ -1,0 +1,14 @@
+[
+  {
+    "description": "这是第一个mocodemo",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "text": "This is the first demo,come on;中文字符",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]
