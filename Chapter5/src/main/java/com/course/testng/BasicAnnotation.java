@@ -2,56 +2,51 @@ package com.course.testng;
 
 import org.testng.annotations.*;
 
+/**
+ * @program: AutoTest
+ * @author: Domi
+ * @create: 2020-03-24 00:08
+ **/
 public class BasicAnnotation {
-
     @Test
     public void testCase1() {
-        System.out.printf("Thread Id: %s%n", Thread.currentThread().getId());
-        System.out.println("ÕâÊÇ²âÊÔÓÃÀı1");
+        System.out.printf("Thrad Id: %s%n", Thread.currentThread().getId());
+        System.out.println("è¿™æ˜¯æµ‹è¯•ç”¨ä¾‹1");
     }
 
     @Test
     public void testCase2() {
-        System.out.println("ÕâÊÇ²âÊÔÓÃÀı2");
-    }
-
-    @BeforeTest
-    public void beforeTest() {
-        System.out.println("beforeTestÔËĞĞ");
-    }
-
-    @AfterTest
-    public void afterTest() {
-        System.out.println("afterTestÔËĞĞ");
+        System.out.printf("Thread Id: %s%n", Thread.currentThread().getId());
+        System.out.println("è¿™æ˜¯æµ‹è¯•ç”¨ä¾‹2");
     }
 
     @BeforeMethod
     public void beforeMethod() {
-        System.out.println("beforeMethodÕâÊÇÔÚ²âÊÔ·½·¨Ö®Ç°ÔËĞĞµÄ");
+        System.out.println("BeforeMethodè¿™ä¸ªæ˜¯åœ¨æµ‹è¯•æ–¹æ³•å‰è¿è¡Œ");
     }
 
     @AfterMethod
     public void afterMethod() {
-        System.out.println("afterMethodÕâÊÇÔÚ²âÊÔ·½·¨Ö®ºóÔËĞĞµÄ");
+        System.out.println("AfterMethodè¿™ä¸ªæ˜¯åœ¨æµ‹è¯•æ–¹æ³•åè¿è¡Œ");
     }
 
     @BeforeClass
     public void beforeClass() {
-        System.out.println("beforeClassÕâÊÇÔÚÀàÔËĞĞÖ®Ç°ÔËĞĞµÄ·½·¨");
+        System.out.println("BeforeClassè¿™ä¸ªæ˜¯åœ¨ç±»è¿è¡Œå‰æ‰§è¡Œ");
     }
 
     @AfterClass
     public void afterClass() {
-        System.out.println("afterClassÕâÊÇÔÚÀàÔËĞĞÖ®ºóÔËĞĞµÄ·½·¨");
+        System.out.println("AfterClassè¿™ä¸ªæ˜¯åœ¨ç±»è¿è¡Œå‰æ‰§è¡Œ");
     }
 
     @BeforeSuite
     public void beforeSuite() {
-        System.out.println("beforeSuite²âÊÔÌ×¼ş");
+        System.out.println("BeforeSuiteæµ‹è¯•å¥—ä»¶");
     }
 
     @AfterSuite
     public void afterSuite() {
-        System.out.println("afterSuite²âÊÔÌ×¼ş");
+        System.out.println("AfterSuiteæµ‹è¯•å¥—ä»¶");
     }
 }

@@ -2,9 +2,16 @@ package com.course.testng.suite;
 
 import org.testng.annotations.Test;
 
+/**
+ * @program: AutoTest
+ * @author: Domi
+ * @create: 2020-03-24 00:37
+ **/
 public class PayTest {
+
     @Test
     public void paySuccess() {
-        System.out.println("Ö§¸¶±¦Ö§¸¶³É¹¦");
+        System.out.println("æ”¯ä»˜å®æ”¯ä»˜æˆåŠŸ");
     }
+
 }

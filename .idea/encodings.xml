@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Chapter10" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Chapter6" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Chapter7/startup1.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Chapter7/startupget.json" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Chapter9" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter101" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter111" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter121" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter131" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter66" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter7" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter71/readme" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter8" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Chapter91" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,56 @@
+[
+  {
+    "description": "get请求",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "The First  get request demo"
+    }
+  },
+  {
+    "description": "带参数的get请求",
+    "request": {
+      "uri": "/getwithparam",
+      "method": "get",
+      "queries": {
+        "name": "duomi",
+        "age": "18",
+        "position": "CEO"
+      }
+    },
+    "response": {
+      "text": "The get request with params"
+    }
+  },
+  {
+    "description": "带参数的get请求,返回json",
+    "request": {
+      "uri": "/getwithparamjson",
+      "method": "get",
+      "queries": {
+        "name": "duomi",
+        "age": "18",
+        "position": "CEO"
+      }
+    },
+    "response": {
+      "json": {
+        "name": "duominicat",
+        "age": "16",
+        "moto": "day day up"
+      }
+    }
+  },
+  {
+    "description": "post请求",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "The first post request demo"
+    }
+  }
+]

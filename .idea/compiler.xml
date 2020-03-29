@@ -6,25 +6,52 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Chapter121" />
+        <module name="Chapter101" />
+        <module name="Chapter131" />
+        <module name="Chapter111" />
+        <module name="Chapter8" />
+        <module name="Chapter91" />
+        <module name="Chapter7" />
         <module name="Chapter5" />
-        <module name="Chapter10" />
-        <module name="Chapter9" />
-        <module name="Chapter6" />
+        <module name="Chapter66" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AutoTest" target="1.8" />
+      <module name="AutoTest" target="1.6" />
       <module name="Chapter10" target="1.8" />
+      <module name="Chapter101" target="1.6" />
+      <module name="Chapter11" target="1.8" />
+      <module name="Chapter111" target="1.6" />
+      <module name="Chapter12" target="1.8" />
+      <module name="Chapter121" target="1.6" />
+      <module name="Chapter13" target="8" />
+      <module name="Chapter131" target="1.8" />
       <module name="Chapter5" target="1.5" />
       <module name="Chapter6" target="1.8" />
+      <module name="Chapter66" target="1.6" />
+      <module name="Chapter7" target="1.6" />
+      <module name="Chapter8" target="1.6" />
       <module name="Chapter9" target="1.8" />
+      <module name="Chapter91" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Chapter10" options="-parameters" />
+      <module name="Chapter101" options="" />
+      <module name="Chapter11" options="-parameters" />
+      <module name="Chapter111" options="" />
+      <module name="Chapter12" options="-parameters" />
+      <module name="Chapter121" options="" />
+      <module name="Chapter13" options="" />
+      <module name="Chapter131" options="" />
       <module name="Chapter6" options="-parameters" />
+      <module name="Chapter66" options="" />
+      <module name="Chapter7" options="" />
+      <module name="Chapter8" options="" />
       <module name="Chapter9" options="-parameters" />
+      <module name="Chapter91" options="" />
     </option>
   </component>
 </project>

@@ -2,20 +2,25 @@ package com.course.testng;
 
 import org.testng.annotations.Test;
 
+/**
+ * @program: AutoTest
+ * @author: Domi
+ * @create: 2020-03-24 13:07
+ **/
 public class IgnoreTest {
-
     @Test
     public void ignore1() {
-        System.out.println("ignore1Ö´ÐÐ");
+        System.out.println("Ignore1 æ‰§è¡Œ");
     }
 
     @Test(enabled = false)
     public void ignore2() {
-        System.out.println("ignore2Ö´ÐÐ");
+        System.out.println("Ignore2 æ‰§è¡Œ");
     }
 
     @Test(enabled = true)
     public void ignore3() {
-        System.out.println("ignore3Ö´ÐÐ");
+        System.out.println("Ignore3 æ‰§è¡Œ");
     }
+
 }

@@ -4,45 +4,50 @@ import org.testng.annotations.AfterGroups;
 import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
+/**
+ * @program: AutoTest
+ * @author: Domi
+ * @create: 2020-03-24 13:44
+ **/
 public class GroupOnMethod {
-
     @Test(groups = "server")
     public void test1() {
-        System.out.println("ÕâÊÇ·şÎñ¶Ë×éµÄ²âÊÔ·½·¨111111");
+        System.out.println("è¿™æ˜¯æœåŠ¡ç«¯ç»„çš„æµ‹è¯•æ–¹æ³•1111111");
     }
 
     @Test(groups = "server")
     public void test2() {
-        System.out.println("ÕâÊÇ·şÎñ¶Ë×éµÄ²âÊÔ·½·¨22222222");
+        System.out.println("è¿™æ˜¯æœåŠ¡ç«¯ç»„æµ‹è¯•æ–¹æ³•22222222");
     }
 
     @Test(groups = "client")
     public void test3() {
-        System.out.println("ÕâÊÇ¿Í»§¶Ë×éµÄ²âÊÔ·½·¨333333");
+        System.out.println("è¿™æ˜¯å®¢æˆ·ç«¯ç»„æµ‹è¯•æ–¹æ³•33333");
     }
 
     @Test(groups = "client")
     public void test4() {
-        System.out.println("ÕâÊÇ¿Í»§¶ËµÄ²âÊÔ·½·¨44444");
+        System.out.println("è¿™æ˜¯å®¢æˆ·ç«¯ç»„æµ‹è¯•44444444");
     }
 
     @BeforeGroups("server")
-    public void beforeGroupOnServer() {
-        System.out.println("ÕâÊÇ·şÎñ¶Ë×éÔËĞĞÖ®Ç°ÔËĞĞµÄ·½·¨");
+    public void beforeGroupsOnServer() {
+        System.out.println("è¿™æ˜¯æœåŠ¡ç«¯ç»„è¿è¡Œä¹‹å‰è¿è¡Œçš„æ–¹æ³•");
     }
 
     @AfterGroups("server")
     public void afterGroupOnServer() {
-        System.out.println("ÕâÊÇ·şÎñ¶Ë×éÔËĞĞÖ®ºóÔËĞĞµÄ·½·¨");
+        System.out.println("è¿™æ˜¯æœåŠ¡ç«¯ç»„è¿è¡Œä¹‹åçš„æ–¹æ³•");
     }
 
     @BeforeGroups("client")
-    public void beforeGroupOnClient() {
-        System.out.println("ÕâÊÇ¿Í»§¶Ë×éÔËĞĞÖ®Ç°ÔËĞĞµÄ·½·¨");
+    public void beforeGroupsOnClient() {
+        System.out.println("è¿™æ˜¯å®¢æˆ·ç«¯ç»„è¿è¡Œä¹‹å‰è¿è¡Œçš„æ–¹æ³•");
     }
 
     @AfterGroups("client")
     public void afterGroupOnClient() {
-        System.out.println("ÕâÊÇ¿Í»§¶Ë×éÔËĞĞÖ®ºóÔËĞĞµÄ·½·¨");
+        System.out.println("è¿™æ˜¯å®¢æˆ·ç«¯ç»„è¿è¡Œä¹‹åçš„æ–¹æ³•");
     }
+
 }

@@ -2,33 +2,29 @@ package com.course.testng;
 
 import org.testng.annotations.Test;
 
+/**
+ * @program: AutoTest
+ * @author: Domi
+ * @create: 2020-03-24 14:07
+ **/
 public class ExpectedException {
+    /**
+     * ä»€ä¹ˆæ—¶å€™ä¼šç”¨åˆ°å¼‚å¸¸æµ‹è¯•ï¼Ÿï¼Ÿ
+     * åœ¨æˆ‘ä»¬æœŸæœ›ç»“æœä¸ºä¸€ä¸ªå¼‚å¸¸çš„æ—¶å€™
+     * æ¯”å¦‚ï¼šæˆ‘ä»¬ä¼ å…¥äº†æŸäº›ä¸åˆæ³•çš„å‚æ•°ï¼Œç¨‹åºæŠ›å‡ºäº†å¼‚å¸¸
+     * ä¹Ÿå°±æ˜¯æˆ‘ä»¬é¢„æœŸç»“æœå°±æ˜¯ä¸ªå¼‚å¸¸
+     */
 
-    /*
-    * Ê²Ã´Ê±ºò»áÓÃµ½Òì³£²âÊÔ£¿
-    * ÔÚÎÒÃÇÆÚÍû½á¹ûÎªÄ³Ò»¸öÒì³£µÄÊ±ºò
-    * ±ÈÈçÎÒÃÇ´«ÈëÁËÄ³Ğ©²»ºÏ·¨µÄ²ÎÊı£¬³ÌĞòÅ×³öÁËÒì³£
-    * Ò²±ÈÈçËµÎÒÃÇµÄÔËĞĞ½á¹û¾ÍÊÇÕâ¸öÒì³£
-    * */
-
-    //    ÕâÊÇÒ»¸ö²âÊÔ½á¹ûÊ§°ÜµÄÒì³£²âÊÔ
+//    æµ‹è¯•å¤±è´¥
     @Test(expectedExceptions = RuntimeException.class)
     public void runTimeExceptionFailed() {
-        System.out.println("ÕâÊÇÒ»¸öÊ§°ÜµÄÒì³£²âÊÔ");
+        System.out.println("è¿™æ˜¯ä¸€ä¸ªå¤±è´¥çš„å¼‚å¸¸æµ‹è¯•");
     }
 
-    //    ÕâÊÇÒ»¸ö³É¹¦µÄÒì³£²âÊÔ
-    @Test(expectedExceptions = RuntimeException.class)
-    public void runTimeExpectionSuccess() {
-        System.out.println("ÕâÊÇÎÒµÄÒì³£²âÊÔ");
-        throw new RuntimeException();
-    }
 
     @Test(expectedExceptions = RuntimeException.class)
-    public void runTimeExpectedS() {
-        System.out.println("ÕâÊÇÒ»¸öÒì³£²âÊÔ£¬£¬£¬");
+    public void runTimeExceptionSuccess() {
+        System.out.println("è¿™æ˜¯æˆ‘çš„å¼‚å¸¸æµ‹è¯•");
         throw new RuntimeException();
     }
-
-
 }

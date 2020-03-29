@@ -2,13 +2,19 @@ package com.course.testng.groups;
 
 import org.testng.annotations.Test;
 
+/**
+ * @program: AutoTest
+ * @author: Domi
+ * @create: 2020-03-24 13:52
+ **/
 @Test(groups = "teacher")
 public class GroupsOnClass3 {
+
     public void teacher1() {
-        System.out.println("GroupsOnClass3333中的teacher111运行");
+        System.out.println("GroupsOnClass3涓殑teacher1 杩愯");
     }
 
     public void teacher2() {
-        System.out.println("GroupsOnClass3333中的teacher222运行");
+        System.out.println("GroupsOnClass3涓殑teacher2 杩愯");
     }
 }

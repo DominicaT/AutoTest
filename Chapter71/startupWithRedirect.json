@@ -1,0 +1,28 @@
+[
+  {
+    "description": "从定向到百度",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "重定向到自己网页上",
+    "request": {
+      "uri": "/redirect/topath"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "这是被从定向到的请求",
+    "request": {
+      "uri": "/redirect/new"
+    },
+    "response": {
+      "json": {
+        "name": "duomi",
+        "age": "18"
+      }
+    }
+  }
+]

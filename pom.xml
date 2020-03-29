@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.0.RELEASE</version>
+        <version>1.5.3.RELEASE</version>
     </parent>
     <groupId>com.course.code</groupId>
     <artifactId>Chapter</artifactId>
@@ -15,9 +15,14 @@
 
     <modules>
         <module>Chapter5</module>
-        <module>Chapter6</module>
-        <module>Chapter9</module>
-        <module>Chapter10</module>
+        <module>Chapter7</module>
+        <module>Chapter8</module>
+        <module>Chapter66</module>
+        <module>Chapter91</module>
+        <module>Chapter101</module>
+        <module>Chapter111</module>
+        <module>Chapter121</module>
+        <module>Chapter131</module>
     </modules>
 
 

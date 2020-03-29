@@ -2,11 +2,15 @@ package com.course.testng;
 
 import org.testng.annotations.Test;
 
+/**
+ * @program: AutoTest
+ * @author: Domi
+ * @create: 2020-03-24 15:37
+ **/
 public class TimeOutTest {
-//    µ•Œª∫¡√Î÷µ
-    @Test(timeOut = 3000)
-    public void testSuccess() throws InterruptedException {
-        Thread.sleep(2000);
+    @Test(timeOut = 3000)  //Âçï‰Ωç‰∏∫ÊØ´Áßí
+    public void test1() throws InterruptedException {
+        Thread.sleep(2);
     }
 
     @Test(timeOut = 2000)
